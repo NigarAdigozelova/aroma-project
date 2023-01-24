@@ -1,0 +1,72 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    background-color: #fff;
+    padding: 30px;
+
+    .left-nav {
+      
+
+        display: flex;
+        gap: 120px;
+        align-items: center;
+        .logo{
+            font-size: 25px;
+            font-weight: 800;
+            
+        }
+
+        .links-nav ul {
+            display: flex;
+          
+            gap: 20px;
+           
+
+            li {
+                list-style-type: none;
+                font-size: 18px;
+                text-align: center;
+                
+            }
+
+            a {
+                text-decoration: none; 
+                 text-align: center;
+               
+            }
+        }
+    }
+
+    .right-nav {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .search {
+            display: flex;
+            gap: 20px;
+            ul{
+                display: flex;
+                gap: 20px;
+            }
+            li{
+                list-style-type: none;
+            }
+        }
+
+        .buyNow {
+            button {
+                padding: 10px 45px;
+                background: transparent;
+                color: #222;
+                border:1px solid #EEEEEE;
+                border-radius: 30px;
+            }
+            a{
+                text-decoration: none;
+            }
+        }
+
+    }
+}

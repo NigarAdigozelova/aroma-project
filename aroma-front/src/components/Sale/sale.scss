@@ -1,0 +1,25 @@
+    .sale-img{
+        position: relative;
+        width: 100vw;
+      height: 50vh;
+      object-fit: cover;
+      filter: brightness(70%);
+     
+    }
+    .sale-article{
+        position: absolute;
+        color: white;
+        bottom: -270px;
+        left: 30%;
+        text-align: center;
+        font-size: 40px;
+        .sale-btn{
+            padding: 10px 45px;
+                background: #384aeb;
+                color: #222;
+                border: none;
+                border-radius: 30px;
+                color: white;
+        }
+
+      }

@@ -1,0 +1,38 @@
+.hero-section{
+    background-color: rgb(230, 234, 241);
+    display: flex;
+    .blue{
+        background-color:#384aeb;
+        width: 600px;
+        height: 80vh;
+    }
+    .shopping{
+        position: absolute;
+        top: 190px;
+        left: 110px;
+        img{
+            width: 600px;
+            height: 71vh;
+        }
+    
+    }
+    .article{
+        
+        position: absolute;
+        left: 50%;
+        top: 30%;
+        
+        p{
+            font-size: 23px;
+            width: 600px;
+            margin-bottom:20px;
+            color: rgb(110, 109, 109);
+            
+        }
+        h1{
+            font-size: 40px;
+            margin-bottom:20px;
+            width: 400px;
+        }
+    }
+}
