@@ -1,18 +1,19 @@
 .hero-section{
-    background-color: rgb(230, 234, 241);
+    background-color: #F1F6F7;
     display: flex;
     .blue{
         background-color:#384aeb;
-        width: 600px;
-        height: 80vh;
+        width: 500px;
+        height: 85vh;
     }
     .shopping{
         position: absolute;
-        top: 190px;
+        top: 187px;
         left: 110px;
         img{
-            width: 600px;
+            width: 450px;
             height: 71vh;
+            
         }
     
     }

@@ -22,8 +22,8 @@ const Navbar = () => {
       <div className='right-nav'>
         <div className='search'>
           <ul>
-            <li><i class="fa-solid fa-magnifying-glass"></i></li>
-            <li><i class="fa-solid fa-cart-shopping"></i></li>
+            <li><i className="fa-solid fa-magnifying-glass"></i></li>
+            <li><i className="fa-solid fa-cart-shopping"></i></li>
           </ul>
         </div>
         <div className='buyNow'>

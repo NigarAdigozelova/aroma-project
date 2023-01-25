@@ -2,7 +2,7 @@ import React from 'react'
 import "./heroSection.scss"
 const HeroSection = () => {
     return (
-        <>
+        <> 
             <div className='hero-section'>
                 <div className='blue'></div>
                 <div className='shopping'><img src="https://preview.colorlib.com/theme/aroma/img/home/hero-banner.png" alt="" /></div>

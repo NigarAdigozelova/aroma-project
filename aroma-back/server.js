@@ -17,16 +17,20 @@ const productsScheme = new mongoose.Schema(
             type: String,
             required: true,
         },
-
+      
         productDescription: {
             type: String,
             required: true
         },
-    
+
         productPrice: {
             type: Number,
 
-        }
+        },  
+        productImage: {
+            type: String,
+            required: true,
+        },
     },
     { timestamps: true }
 );
@@ -48,7 +52,7 @@ app.post("/products", async (req, res) => {
     let user = await Products.create(data);
     console.log('postuser', user)
     user.save();
-    res.send({ message: "SUCCESS" });
+    res.send({ message: "SUCCESS" || null });
 });
 
 // Delete-Axios
